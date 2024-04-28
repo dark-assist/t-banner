@@ -11,13 +11,16 @@
 * ```apt install git -y```
 * ```git clone https://github.com/dark-assist/t-banner```
 * ```cd t-banner```
-* ```bash setup.sh```
 * ```bash banner.sh```
 ### Or ; Use Single Command
 ```
-apt update && apt install git -y && git clone https://github.com/dark-assist/t-banner && cd t-banner && bash setup.sh && banner.sh
+apt update && apt install git -y && git clone https://github.com/dark-assist/t-banner && cd t-banner && bash banner.sh
 ```
 
 ## [+] Features :
 #### [+] Latest Fonts !
 #### [+] Easy to Use !
+
+# Note:-----
+Don not use this in Zsh,Fish or other shell.
+This tool is only for Bash shell.
