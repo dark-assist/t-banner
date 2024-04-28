@@ -21,6 +21,8 @@ apt update && apt install git -y && git clone https://github.com/dark-assist/t-b
 #### [+] Latest Fonts !
 #### [+] Easy to Use !
 
+# Fonts:-- You can use any fonts available in figlet.
+
 # Note:-----
 Don not use this in Zsh,Fish or other shell.
 This tool is only for Bash shell.
