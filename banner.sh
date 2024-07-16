@@ -67,9 +67,10 @@ remove() {
         sed -i '/cat \/data\/data\/com.termux\/files\/home\/.banner.txt|lolcat/d' .bashrc
 }
 setup() {
-	apt update
-	apt install figlet lolcat -y
-	clear
+        apt update
+        apt install figlet python python-pip -y
+        pip install lolcat
+        clear
 }
 
 
